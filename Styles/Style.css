@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.096);
+}
+.Logo {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.096);
+    height: 150px;
+}
+
+.Logo img {
+    float: left;
+    width: 85px;
+    height: 135px ;
+    margin-left: 5% ;
+}
+
+.Logo h1 {
+    padding: 50px;
+    margin-left: 20%;
+    color:black;
+    font-size: 45px;
+    font-family: cursive;
+}
+#navbar {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+#navbar li {
+    float:left;
+    list-style-type: none;
+    margin-left:9%;
+    background-color: black;
+}
+
+#navbar li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color:yellow;
+    font-size: 18px;
+}
+
+#Cover img {
+    width: 100%;
+    height:400px ;
+}
+
+.news {
+    float: left;
+    width: 40%;
+    margin: 5%;
+}
+
+.SN {
+    float: right;
+    width: 40%;
+    margin: 5%;
+}
+
+.Leader-Details {
+    width: 100%;
+    text-align: center;
+    background-color:whitesmoke;
+}
+
+.Leader-Details img {
+    width: 275px;
+    height: 338px;
+    border-radius: 25%;
+    margin-left: 5%;
+    padding: 10px;
+}
+.Leader-Details p  {
+    float: right;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Leader-Details #PN {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+
